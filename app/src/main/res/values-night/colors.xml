@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="surface">#111318</color><color name="surface_card">#1B1E25</color>
+    <color name="surface_soft">#252A35</color><color name="on_surface">#E4E7EE</color>
+    <color name="on_surface_muted">#AEB6C4</color><color name="accent">#A9C7FF</color>
+    <color name="accent_soft">#253B61</color><color name="on_accent">#002E69</color>
+    <color name="outline">#3B414C</color><color name="unlocked_icon">#AEB6C4</color>
+    <color name="warning">#FFB86B</color><color name="widget_icon_accent">#A9C7FF</color>
+    <color name="widget_icon_warning">#FFB86B</color><color name="widget_icon_normal">#AEB6C4</color>
+</resources>

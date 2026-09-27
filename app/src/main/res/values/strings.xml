@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Buds Lock</string><string name="app_subtitle">Sleep without accidental earbud taps</string>
+    <string name="controls_normal">Controls normal</string><string name="controls_blocked">Controls blocked</string>
+    <string name="recovery_needed">Restore needed</string><string name="not_changed">Not changed</string>
+    <string name="working">Updating earbuds…</string><string name="please_wait">Please wait</string>
+    <string name="ready">Ready</string>
+    <string name="block_controls">Block controls</string><string name="restore_controls">Restore controls</string>
+    <string name="paired_device">Paired device</string><string name="refresh">Refresh</string>
+    <string name="device_ready">Ready: %1$s</string><string name="choose_buds">Choose your paired OnePlus Buds 4.</string>
+    <string name="choose_buds_short">Choose OnePlus Buds 4…</string>
+    <string name="enable_bluetooth">Turn on Bluetooth, then tap Refresh.</string>
+    <string name="no_bluetooth_adapter">This device has no Bluetooth adapter.</string>
+    <string name="permission_required">Nearby devices permission is required.</string>
+    <string name="buds_disconnected">Buds disconnected</string><string name="checking_connection">Checking connection…</string>
+    <string name="connect_to_use">Connect your Buds to use Sleep Lock.</string>
+    <string name="reconnect_to_restore">Controls remain blocked. Reconnect your Buds to restore them.</string>
+    <string name="scope_title">Sleep Lock changes only</string>
+    <string name="scope_body">Single, double and triple taps on both earbuds</string>
+    <string name="untouched">Swipe, touch-and-hold and call controls stay untouched.</string>
+    <string name="widget_name">Buds Lock</string><string name="widget_description">One-tap Sleep Lock for OnePlus Buds 4</string>
+    <string name="widget_locked_description">Buds controls blocked. Tap to restore.</string>
+    <string name="widget_normal_description">Buds controls normal. Tap to block.</string>
+    <string name="widget_working_description">Buds Lock is updating the earbuds.</string>
+    <string name="widget_recovery_description">Buds Lock needs restoration. Tap to restore.</string>
+    <string name="widget_offline_description">Buds appear disconnected. Tap to retry safely.</string>
+    <string name="notification_channel">Earbud control updates</string>
+    <string name="notification_channel_description">Shown briefly while Buds Lock safely updates and verifies controls</string>
+</resources>

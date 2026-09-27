@@ -1,0 +1,39 @@
+# Android Studio / Gradle
+.gradle/
+.idea/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated release outputs
+dist/*
+*.apk
+*.aab
+*.apks
+*.idsig
+*.zip
+
+# Signing material and credentials
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*signing-credentials*
+keystore.properties
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+*.iml
+*.swp
+*~
+
+# Public v2.0 release files intentionally tracked in Git.
+!dist/
+!dist/BudsLock-v2.0.apk
+!dist/BudsLock-v2.0-public-certificate.pem
+!dist/BudsLock-v2.0-SHA256SUMS.txt

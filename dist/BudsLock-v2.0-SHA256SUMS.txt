@@ -1,0 +1,2 @@
+f3a1e6040c53dd347ab62a41188e69aa24387bfedebedb2ba8e1f637fa31e7f9  BudsLock-v2.0.apk
+25251bf855a2a75cf1d3aaa3653e10dcaf4fe328b80c683c7c254cf9df41209d  BudsLock-v2.0-public-certificate.pem

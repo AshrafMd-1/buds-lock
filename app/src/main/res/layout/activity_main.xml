@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/surface" android:clipToPadding="false" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="24dp">
+            <ImageView android:layout_width="48dp" android:layout_height="48dp"
+                android:contentDescription="@null" android:src="@mipmap/ic_launcher"/>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical" android:paddingStart="14dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/app_name" android:textColor="@color/on_surface"
+                    android:textSize="26sp" android:textStyle="bold"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp" android:text="@string/app_subtitle"
+                    android:textColor="@color/on_surface_muted" android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/card_background" android:gravity="center"
+            android:orientation="vertical" android:padding="24dp">
+            <FrameLayout android:id="@+id/state_icon_container"
+                android:layout_width="104dp" android:layout_height="104dp"
+                android:background="@drawable/icon_circle_background">
+                <ImageView android:id="@+id/state_icon" android:layout_width="52dp"
+                    android:layout_height="52dp" android:layout_gravity="center"
+                    android:contentDescription="@string/controls_normal" android:src="@drawable/ic_lock_open"/>
+            </FrameLayout>
+            <TextView android:id="@+id/state_title" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginTop="20dp"
+                android:text="@string/controls_normal" android:textColor="@color/on_surface"
+                android:textSize="24sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/state_message" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="8dp"
+                android:gravity="center" android:lineSpacingExtra="2dp" android:text="@string/ready"
+                android:textColor="@color/on_surface_muted" android:textSize="15sp"/>
+            <Button android:id="@+id/toggle_button" android:layout_width="match_parent"
+                android:layout_height="56dp" android:layout_marginTop="24dp"
+                android:backgroundTint="@color/accent" android:text="@string/block_controls"
+                android:textAllCaps="false" android:textColor="@color/on_accent"
+                android:textSize="16sp" android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" android:background="@drawable/card_background"
+            android:orientation="vertical" android:padding="20dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:gravity="center_vertical" android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:text="@string/paired_device"
+                    android:textColor="@color/on_surface" android:textSize="17sp" android:textStyle="bold"/>
+                <Button android:id="@+id/refresh_button" android:layout_width="wrap_content"
+                    android:layout_height="48dp" android:backgroundTint="@color/surface_soft"
+                    android:text="@string/refresh" android:textAllCaps="false"
+                    android:textColor="@color/accent"/>
+            </LinearLayout>
+            <Spinner android:id="@+id/device_spinner" android:layout_width="match_parent"
+                android:layout_height="52dp" android:layout_marginTop="8dp"/>
+            <TextView android:id="@+id/device_message" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="6dp"
+                android:text="@string/choose_buds" android:textColor="@color/on_surface_muted"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" android:background="@drawable/card_background"
+            android:orientation="vertical" android:padding="20dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/scope_title" android:textColor="@color/on_surface"
+                android:textSize="17sp" android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:text="@string/scope_body"
+                android:textColor="@color/on_surface_muted" android:textSize="15sp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" android:text="@string/untouched"
+                android:textColor="@color/on_surface_muted" android:textSize="13sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
